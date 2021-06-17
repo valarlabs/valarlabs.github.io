@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+
+html {
+    height: 100%;
+    overflow-y: hidden;
+    background-image: linear-gradient(to bottom right, red, purple); 
+}
+
+body {
+    display: grid;
+    flex-direction: column;
+    min-height: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    align-content: center;
+    justify-self: center;
+    width: 100%;
+    color: white;
+	font-family: 'Proxima Nova', sans-serif;
+	font-size: 42px;
+	font-size: 4.2rem;
+	font-weight: bolder;
+}
+
+.subtitle {
+    align-content: center;
+    justify-self: center;
+    width: 100%;
+    color: white;
+	font-family: Proxima Nova, sans-serif;
+	font-size: 24px;
+	font-size: 2.4rem;
+	font-weight: lighter;
+}
+
+.footer {
+    align-content: center;
+    justify-self: center;
+    width: 100%;
+    position: absolute;
+    bottom: 2%;
+}
+
+.contact-us {
+    color: white;
+	font-family: Proxima Nova, sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+
+.copyright {
+    color: white;
+	font-family: Proxima Nova, sans-serif;
+	font-size: 8px;
+	font-size: 0.8rem;
+	font-weight: 400;
+    position: absolute;
+    right: 2%;
+    bottom: 0%;
+}
+
+a {
+  color: white;
+}
