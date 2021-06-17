@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+@import url(//fonts.googleapis.com/css?family=Proxima+Nova);
 
 html {
     height: 100%;
     overflow-y: hidden;
-    background-image: linear-gradient(to bottom right, red, purple); 
+    overflow-x: hidden;
+    background-image: linear-gradient(to bottom right, red, purple);
 }
 
 body {
