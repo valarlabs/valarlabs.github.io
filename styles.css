@@ -37,7 +37,8 @@ body {
 }
 
 .main {
-    align-content: center;
+    align-content: flex;
+    justify-content: center;
 }
 
 .main p {
