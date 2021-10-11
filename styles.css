@@ -36,6 +36,10 @@ body {
     font-weight: lighter;
 }
 
+.main {
+    align-content: center;
+}
+
 .main p {
     align-content: center;
     justify-self: center;
